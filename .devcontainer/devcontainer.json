@@ -1,0 +1,6 @@
+{
+  "name": "Your Project Name",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "backend", // Or whichever service you want to work in
+  "workspaceFolder": "/usr/src/app"
+}
