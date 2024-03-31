@@ -1,9 +1,11 @@
 # FGCUHackathon2024
 
 ## Getting started:
-Make a copy of `.env_example`, and rename it to `.env` in the root directory, and set the values inside accordingly.
+Install & setup a mysql database, and take note of the username, password, port, and DB name you chose.
+
+Make a copy of `.env_example`, and rename it to `.env` in the root directory, and set the values inside accordingly with the notes you made above.
   - navigate to `backend` and run `npm install`
-    - run `nodemon server.js` to initialize backend server
+    - run `npm run dev` to initialize backend server
   - navigate to `client` and run `npm install`
     - run `npm start` to initialize client side server
 
