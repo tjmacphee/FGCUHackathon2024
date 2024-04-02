@@ -1,0 +1,51 @@
+/* yourCustomStyles.css */
+
+.circle-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+
+*{
+    color: #000000 !important;
+}
+
+.bg-primary {
+    background-color: #fff !important;
+}
+
+header {
+    background: url('./headerbg.jpeg') no-repeat center center/cover;
+    border-radius: 0 0 3em 3em;
+    color: #fff !important;
+    opacity: 0.9;
+}
+
+header h1 {
+    font-weight: bold;
+    letter-spacing: 0.8rem;
+    font-size: 3rem;
+    color: inherit !important;
+}
+
+header p {
+    font-size: 2rem;
+    color: inherit !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.btn {
+    color: #fff !important;
+}
+
+.bg-dark {
+    background-color: #000 !important;
+}
