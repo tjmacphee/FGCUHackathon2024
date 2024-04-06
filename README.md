@@ -17,8 +17,14 @@ great at, encrypting keys, and AES is used for encrypting data which it can do q
 ---
 
 ## Getting started:
+
+### Requirements:
+  - Node
+  - MySQL Database w/ tool
+
 Navigate to the `/javascript/javascript/` directory, and make a copy of the `.env_example` file, and rename it to `.env`
   - The `/backend` & `/client` directories are a WIP
 Set your values as needed
+  - Open a new terminal at `/javascript/javascript/` directory level, and run `npm install`
 
 Navigate to the `Main.js` file, and click Run & Debug
